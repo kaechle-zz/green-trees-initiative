@@ -1,0 +1,104 @@
+@import '../../node_modules/normalize.scss/normalize.scss';
+
+$basecolor: #354463;
+$hilite: #C1F7D5;
+
+body {
+  color: $basecolor;
+  background-color: white;
+}
+
+a {
+  color: $basecolor;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: flood-std, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-size: 56px;
+}
+
+h2 {
+  color: $basecolor;
+}
+
+h3 {
+  background: $basecolor;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+// * {
+//   border: 1px solid blue;
+//   background: lightblue;
+//   padding: 5px;
+// }
+
+
+
+#layout-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 0;
+}
+
+#module-logo {
+  div {
+    width: 100%;
+    font-size: 24px;
+    font-weight: 600;
+    color: $basecolor;
+  }
+}
+
+#module-main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  div {
+    padding: 15px;
+    margin: 0 20px;
+
+    &:nth-child(4) {
+      background-color: $hilite;
+      border-radius: 32px;
+      font-weight: 600;
+    }
+  }
+}
+
+#layout-hero {
+  background: url('../img/hero-bg.png');
+  background-size: cover;
+}
+
+#layout-hero-top {
+  display: flex;
+}
+
+#module-cta {
+  background: white;
+  margin: 50px;
+  padding: 50px;
+  position: relative;
+  h3 {
+    position: absolute;
+    right: 50%;
+    top: -50px;
+    padding: 10px;
+  }
+}
+
+#module-banner {
+
+}

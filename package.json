@@ -1,0 +1,38 @@
+{
+  "name": "carbonated",
+  "version": "1.0.0",
+  "description": "A biolerplate for building front-end projects with gulp 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaechle/carbonated.git"
+  },
+  "keywords": [
+    "front-end",
+    "biolerplate",
+    "gulp",
+    "npm"
+  ],
+  "author": "Tim Kaechle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaechle/carbonated/issues"
+  },
+  "homepage": "https://github.com/kaechle/carbonated#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "browser-sync": "^2.26.7",
+    "cssnano": "^4.1.10",
+    "delete": "^1.1.0",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "merge-stream": "^2.0.0",
+    "normalize.scss": "^0.1.0"
+  },
+  "dependencies": {}
+}
